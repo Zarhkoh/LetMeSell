@@ -7,16 +7,16 @@ local function firstStart()
 end
 
 local function getAddonStatus()
-    if isActive == nil then
-        isActive = "true"
+    if IsActive == nil then
+        IsActive = "true"
         firstStart()
-    elseif isActive == "false" then
+    elseif IsActive == "false" then
         print("LetMeSell est installé mais inactif. Tapez la commande \"/letmessell on\" ou \"lms on\" pour l'activer.")
     end
 end
 
 EventFrame:SetScript("OnEvent", function(self, event, ...)
-    if(event == "MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL" and isActive=="true")then
+    if(event == "MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL" and IsActive=="true")then
         SellCursorItem()
     elseif(event == "PLAYER_ENTERING_WORLD")then
         getAddonStatus()

@@ -6,16 +6,16 @@ end
 
 
 local function changeAddonStatus(param)
-    if param == "on" and isActive =="false" then
-        isActive = "true"
+    if param == "on" and IsActive =="false" then
+        IsActive = "true"
         print("LetMeSell - L'addon est maintenant actif.")
-    elseif param == "on" and isActive =="true" then
+    elseif param == "on" and IsActive =="true" then
         print("LetMeSell - L'addon est déjà actif. Tapez \"lsm off\" pour le désactiver.")
-    elseif param == "off" and isActive=="true" then
-        isActive = "false"
+    elseif param == "off" and IsActive=="true" then
+        IsActive = "false"
         print("LetMeSell - L'addon est maintenant inactif.")
-    elseif param == "off" and isActive=="false" then
-        isActive = "false"
+    elseif param == "off" and IsActive=="false" then
+        IsActive = "false"
         print("LetMeSell - L'addon est déjà inactif. Tapez \"lsm on\" pour l'activer.")
     else
         print("Commande invalide.")

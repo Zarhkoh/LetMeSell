@@ -1,7 +1,7 @@
 ## Interface: 100002
 ## Title: LetMeSell
 ## Notes: LetMeSell allows you to sell tradable stuff without always have the confirmation frame.
-## Version: 1.0
+## Version: 1.0.1
 ## SavedVariablesPerCharacter: IsActive 
 
 LetMeSell.lua
