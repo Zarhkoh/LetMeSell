@@ -6,3 +6,4 @@
 
 LetMeSell.lua
 Commands.lua
+Localization.lua

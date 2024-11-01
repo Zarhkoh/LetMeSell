@@ -1,24 +1,24 @@
 local function helpCommand()
-    print("Commandes pour LetMeSell :")
-        print("/lsm on - Active l'addon pour permettre la vente des objets sans confirmation.")
-        print("/lsm off - Désactive l'addon pour désactiver la vente des objets sans confirmation.")
+    print(GetLocalizedText("ACCEPTED_COMMANDS_MSG"))
+        print("/lms on - "..GetLocalizedText("INFO_ENABLE_COMMAND_MSG"))
+        print("/lms off - "..GetLocalizedText("INFO_DISABLE_COMMAND_MSG"))
 end
 
 
 local function changeAddonStatus(param)
     if param == "on" and IsActive =="false" then
         IsActive = "true"
-        print("LetMeSell - L'addon est maintenant actif.")
+        print("LetMeSell - "..GetLocalizedText("ADDON_ACTIVE_MSG"))
     elseif param == "on" and IsActive =="true" then
-        print("LetMeSell - L'addon est déjà actif. Tapez \"lsm off\" pour le désactiver.")
+        print("LetMeSell - "..GetLocalizedText("ADDON_ALREADY_ACTIVE_MSG"))
     elseif param == "off" and IsActive=="true" then
         IsActive = "false"
-        print("LetMeSell - L'addon est maintenant inactif.")
+        print("LetMeSell - "..GetLocalizedText("ADDON_INACTIVE_MSG"))
     elseif param == "off" and IsActive=="false" then
         IsActive = "false"
-        print("LetMeSell - L'addon est déjà inactif. Tapez \"lsm on\" pour l'activer.")
+        print("LetMeSell - "..GetLocalizedText("ADDON_ALREADY_INACTIVE_MSG"))
     else
-        print("Commande invalide.")
+        print(GetLocalizedText("INVALID_COMMAND_MSG"))
         helpCommand()
     end
 end

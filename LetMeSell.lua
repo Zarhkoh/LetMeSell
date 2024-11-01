@@ -3,7 +3,7 @@ EventFrame:RegisterEvent("MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL")
 EventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 
 local function firstStart()
-    print("Merci d'avoir téléchargé LetMeSell. Pour connaître les commandes, tapez \"/letmesell\" ou \"/lms\"")
+    print(GetLocalizedText("THANK_YOU_MSG"))
 end
 
 local function getAddonStatus()
@@ -11,7 +11,7 @@ local function getAddonStatus()
         IsActive = "true"
         firstStart()
     elseif IsActive == "false" then
-        print("LetMeSell est installé mais inactif. Tapez la commande \"/letmessell on\" ou \"lms on\" pour l'activer.")
+        print(GetLocalizedText("ADDON_INSTALLED_INACTIVE_MSG"))
     end
 end
 
