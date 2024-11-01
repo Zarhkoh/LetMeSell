@@ -1,6 +1,6 @@
-## Interface: 100002
+## Interface: 110005
 ## Title: LetMeSell
-## Notes: LetMeSell allows you to sell tradable stuff without always have the confirmation frame.
+## Notes: LetMeSell allows you to sell tradable items without always have the confirmation frame. You'll thank me later.
 ## Version: 1.0.1
 ## SavedVariablesPerCharacter: IsActive 
 
