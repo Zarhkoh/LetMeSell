@@ -1,6 +1,8 @@
 local EventFrame = CreateFrame("frame", "LetMeSell")
 EventFrame:RegisterEvent("MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL")
 EventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
+EventFrame:RegisterEvent("ADDON_LOADED")
+locale = GetLocale()
 
 local function firstStart()
     print(GetLetMeSellLocalizedText("THANK_YOU_MSG"))
@@ -16,7 +18,9 @@ local function getAddonStatus()
 end
 
 EventFrame:SetScript("OnEvent", function(self, event, ...)
-    if(event == "MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL" and IsActive=="true")then
+    if(event == "ADDON_LOADED" and ... == "WowUkrainizer") then
+        locale = "ukUA"
+    elseif(event == "MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL" and IsActive=="true")then
         SellCursorItem()
     elseif(event == "PLAYER_ENTERING_WORLD")then
         getAddonStatus()

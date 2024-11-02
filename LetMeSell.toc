@@ -1,7 +1,17 @@
 ## Interface: 110005
-## Title: LetMeSell
-## Notes: LetMeSell allows you to sell tradable items without always have the confirmation frame. You'll thank me later.
-## Version: 1.0.1
+## Title: LetMeSell by RAZhkoh
+## Notes: Force sell tradable items without Confirmation.
+## Notes-frFR: Force la vente d'objets échangeables sans confirmation.
+## Notes-deDE: Zwingt den Verkauf von handelbaren Gegenständen ohne Bestätigung.
+## Notes-esES: Fuerza la venta de objetos comerciables sin confirmación.
+## Notes-esMX: Fuerza la venta de objetos comerciables sin confirmación.
+## Notes-ptBR: Força a venda de itens negociáveis sem confirmação.
+## Notes-itIT: Forza la vendita di oggetti commerciabili senza conferma.
+## Notes-koKR: 확인 없이 거래 가능한 아이템을 판매하도록 강제합니다.
+## Notes-ruRU: Принудительная продажа товарных предметов без подтверждения.
+## Notes-zhCN: 强制出售可交易物品，无需确认。
+## Notes-zhTW: 強制出售可交易物品，無需確認。
+## Version: 1.0.2
 ## SavedVariablesPerCharacter: IsActive 
 
 LetMeSell.lua
