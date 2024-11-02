@@ -82,7 +82,7 @@ local LetMeSellLocalizationTable = {
         zhCN = "LetMeSell已安装但未激活。输入命令 \"/letmesell on\" 或 \"lms on\" 来激活它。",
         zhTW = "LetMeSell已安裝但未啟用。請輸入命令 \"/letmesell on\" 或 \"lms on\" 來啟用它。",
         ukUA = "LetMeSell встановлено, але неактивно. Введіть команду \"/letmesell on\" або \"lms on\", щоб активувати його."
-    }
+    },
     ADDON_INACTIVE_MSG = {
         default = "The addon is now inactive.",
         frFR = "L'addon est maintenant inactif.",
