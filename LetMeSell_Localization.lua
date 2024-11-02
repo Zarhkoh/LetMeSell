@@ -1,7 +1,3 @@
-local locale = GetLocale()
-
-local locale = GetLocale()
-
 local LetMeSellLocalizationTable = {
     ACCEPTED_COMMANDS_MSG = {
         default = "Available commands for LetMeSell:",
@@ -73,6 +69,20 @@ local LetMeSellLocalizationTable = {
         zhTW = "插件已啟用。輸入 \"lms off\" 來停用它。",
         ukUA = "Аддон вже активний. Введіть \"lms off\", щоб його вимкнути."
     },
+    ADDON_INSTALLED_INACTIVE_MSG = {
+        default = "LetMeSell is installed but inactive. Type the command \"/letmesell on\" or \"lms on\" to activate it.",
+        frFR = "LetMeSell est installé mais inactif. Tapez la commande \"/letmesell on\" ou \"lms on\" pour l'activer.",
+        deDE = "LetMeSell ist installiert, aber inaktiv. Geben Sie den Befehl \"/letmesell on\" oder \"lms on\" ein, um es zu aktivieren.",
+        esES = "LetMeSell está instalado pero inactivo. Escribe el comando \"/letmesell on\" o \"lms on\" para activarlo.",
+        esMX = "LetMeSell está instalado pero inactivo. Escribe el comando \"/letmesell on\" o \"lms on\" para activarlo.",
+        ptBR = "LetMeSell está instalado, mas inativo. Digite o comando \"/letmesell on\" ou \"lms on\" para ativá-lo.",
+        itIT = "LetMeSell è installato ma inattivo. Digita il comando \"/letmesell on\" o \"lms on\" per attivarlo.",
+        koKR = "LetMeSell이 설치되었지만 비활성화되어 있습니다. 활성화하려면 \"/letmesell on\" 또는 \"lms on\" 명령어를 입력하세요.",
+        ruRU = "LetMeSell установлен, но неактивен. Введите команду \"/letmesell on\" или \"lms on\", чтобы активировать его.",
+        zhCN = "LetMeSell已安装但未激活。输入命令 \"/letmesell on\" 或 \"lms on\" 来激活它。",
+        zhTW = "LetMeSell已安裝但未啟用。請輸入命令 \"/letmesell on\" 或 \"lms on\" 來啟用它。",
+        ukUA = "LetMeSell встановлено, але неактивно. Введіть команду \"/letmesell on\" або \"lms on\", щоб активувати його."
+    }
     ADDON_INACTIVE_MSG = {
         default = "The addon is now inactive.",
         frFR = "L'addon est maintenant inactif.",
@@ -133,5 +143,5 @@ local LetMeSellLocalizationTable = {
 
 
 function GetLetMeSellLocalizedText(key)
-    return LetMeSellLocalizationTable[key][locale] or LetMeSellLocalizationTable[key]["default"] or key
+    return LetMeSellLocalizationTable[key][locale] or LetMeSellLocalizationTable[key]["default"]
 end
