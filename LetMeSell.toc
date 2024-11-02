@@ -5,5 +5,5 @@
 ## SavedVariablesPerCharacter: IsActive 
 
 LetMeSell.lua
-Commands.lua
-Localization.lua
+LetMeSell_Commands.lua
+LetMeSell_Localization.lua

@@ -3,7 +3,7 @@ EventFrame:RegisterEvent("MERCHANT_CONFIRM_TRADE_TIMER_REMOVAL")
 EventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 
 local function firstStart()
-    print(GetLocalizedText("THANK_YOU_MSG"))
+    print(GetLetMeSellLocalizedText("THANK_YOU_MSG"))
 end
 
 local function getAddonStatus()
@@ -11,7 +11,7 @@ local function getAddonStatus()
         IsActive = "true"
         firstStart()
     elseif IsActive == "false" then
-        print(GetLocalizedText("ADDON_INSTALLED_INACTIVE_MSG"))
+        print(GetLetMeSellLocalizedText("ADDON_INSTALLED_INACTIVE_MSG"))
     end
 end
 

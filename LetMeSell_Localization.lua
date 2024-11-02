@@ -1,6 +1,6 @@
 local locale = GetLocale()
 
-LocalizationTable = {
+local LetMeSellLocalizationTable = {
     ACCEPTED_COMMANDS_MSG = {
         default = "Available commands for LetMeSell:",
         frFR = "Commandes disponibles pour LetMeSell :",
@@ -134,6 +134,6 @@ LocalizationTable = {
     }
 }
 
-function GetLocalizedText(key)
-    return LocalizationTable[key][locale] or LocalizationTable[key]["default"] or key
+function GetLetMeSellLocalizedText(key)
+    return LetMeSellLocalizationTable[key][locale] or LetMeSellLocalizationTable[key]["default"] or key
 end
