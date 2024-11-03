@@ -25,7 +25,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Активируйте аддон, чтобы разрешить продажу предметов без подтверждения.",
         zhCN = "启用插件以允许无需确认即可出售物品。",
         zhTW = "啟用插件以允許無需確認即可出售物品。",
-        ukUA = "Увімкніть аддон, щоб дозволити продаж предметів без підтвердження."
+        ukUA = "Увімкнути додаток, щоб дозволити продаж предметів без підтвердження."
     },
     INFO_DISABLE_COMMAND_MSG = {
         default = "Disable the addon to stop selling items without confirmation.",
@@ -39,7 +39,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Отключите аддон, чтобы остановить продажу предметов без подтверждения.",
         zhCN = "禁用插件以停止无需确认出售物品。",
         zhTW = "停用插件以停止無需確認即可出售物品。",
-        ukUA = "Вимкніть аддон, щоб зупинити продаж предметів без підтвердження."
+        ukUA = "Вимкнути додаток, щоб зупинити продаж предметів без підтвердження."
     },
     ADDON_ACTIVE_MSG = {
         default = "The addon is now active.",
@@ -53,7 +53,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Аддон теперь активен.",
         zhCN = "插件现在已激活。",
         zhTW = "插件現在已激活。",
-        ukUA = "Аддон тепер активний."
+        ukUA = "Додаток ввімкнено."
     },
     ADDON_ALREADY_ACTIVE_MSG = {
         default = "The addon is already active. Type \"lms off\" to disable it.",
@@ -67,7 +67,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Аддон уже активен. Введите \"lms off\", чтобы отключить его.",
         zhCN = "插件已激活。输入 \"lms off\" 来禁用它。",
         zhTW = "插件已啟用。輸入 \"lms off\" 來停用它。",
-        ukUA = "Аддон вже активний. Введіть \"lms off\", щоб його вимкнути."
+        ukUA = "Додаток вже ввімкнено. Введіть \"lms off\", щоб його вимкнути."
     },
     ADDON_INSTALLED_INACTIVE_MSG = {
         default = "LetMeSell is installed but inactive. Type the command \"/letmesell on\" or \"lms on\" to activate it.",
@@ -81,7 +81,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "LetMeSell установлен, но неактивен. Введите команду \"/letmesell on\" или \"lms on\", чтобы активировать его.",
         zhCN = "LetMeSell已安装但未激活。输入命令 \"/letmesell on\" 或 \"lms on\" 来激活它。",
         zhTW = "LetMeSell已安裝但未啟用。請輸入命令 \"/letmesell on\" 或 \"lms on\" 來啟用它。",
-        ukUA = "LetMeSell встановлено, але неактивно. Введіть команду \"/letmesell on\" або \"lms on\", щоб активувати його."
+        ukUA = "LetMeSell встановлено, але не ввімкнено. Введіть команду \"/letmesell on\" або \"lms on\", щоб увімкнути його."
     },
     ADDON_INACTIVE_MSG = {
         default = "The addon is now inactive.",
@@ -95,7 +95,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Аддон теперь неактивен.",
         zhCN = "插件现在已停用。",
         zhTW = "插件現在已停用。",
-        ukUA = "Аддон тепер неактивний."
+        ukUA = "Додаток вимкнено."
     },
     ADDON_ALREADY_INACTIVE_MSG = {
         default = "The addon is already inactive. Type \"lms on\" to enable it.",
@@ -109,7 +109,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Аддон уже неактивен. Введите \"lms on\", чтобы включить его.",
         zhCN = "插件已停用。输入 \"lms on\" 来启用它。",
         zhTW = "插件已停用。輸入 \"lms on\" 來啟用它。",
-        ukUA = "Аддон вже неактивний. Введіть \"lms on\", щоб його активувати."
+        ukUA = "Додаток вже вимкнено. Введіть \"lms on\", щоб його ввімкнути."
     },
     INVALID_COMMAND_MSG = {
         default = "Invalid command.",
@@ -137,7 +137,7 @@ local LetMeSellLocalizationTable = {
         ruRU = "Спасибо за загрузку LetMeSell. Чтобы узнать команды, введите \"/letmesell\" или \"/lms\".",
         zhCN = "感谢下载LetMeSell。要了解命令，请输入\"/letmesell\"或\"/lms\"。",
         zhTW = "感謝下載LetMeSell。要了解命令，請輸入\"/letmesell\"或\"/lms\"。",
-        ukUA = "Дякуємо за завантаження LetMeSell. Щоб дізнатися команди, введіть \"/letmesell\" або \"/lms\"."
+        ukUA = "Дякуємо за завантаження LetMeSell. Щоб дізнатися команди, уведіть \"/letmesell\" або \"/lms\"."
     }
 }
 
