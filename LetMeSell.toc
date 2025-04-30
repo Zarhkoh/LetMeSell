@@ -1,4 +1,4 @@
-## Interface: 110007
+## Interface: 110105
 ## Title: LetMeSell by RAZhkoh
 ## Notes: Force sell tradable items without Confirmation.
 ## Notes-frFR: Force la vente d'objets échangeables sans confirmation.
@@ -11,7 +11,7 @@
 ## Notes-ruRU: Принудительная продажа товарных предметов без подтверждения.
 ## Notes-zhCN: 强制出售可交易物品，无需确认。
 ## Notes-zhTW: 強制出售可交易物品，無需確認。
-## Version: 1.0.4
+## Version: @project-version@
 ## SavedVariablesPerCharacter: IsActive 
 
 LetMeSell.lua
