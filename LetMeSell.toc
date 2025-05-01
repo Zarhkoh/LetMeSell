@@ -12,7 +12,10 @@
 ## Notes-zhCN: 强制出售可交易物品，无需确认。
 ## Notes-zhTW: 強制出售可交易物品，無需確認。
 ## Version: @project-version@
-## SavedVariablesPerCharacter: IsActive 
+## SavedVariablesPerCharacter: IsActive
+## X-Curse-Project-ID: 665373
+# X-WoWI-ID: 26927
+## X-Wago-ID: qGZRVkGd
 
 LetMeSell.lua
 LetMeSell_Commands.lua
