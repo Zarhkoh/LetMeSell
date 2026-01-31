@@ -1,4 +1,4 @@
-## Interface: 110105
+## Interface: 120000
 ## Title: LetMeSell by RAZhkoh
 ## Notes: Force sell tradable items without Confirmation.
 ## Notes-frFR: Force la vente d'objets échangeables sans confirmation.

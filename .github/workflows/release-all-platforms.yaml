@@ -1,13 +1,5 @@
 # description of this workflow, can be anything you want
-name: Package and release
-
-# we need to let GitHub know _when_ we want to release.
-# this is typically only when we create a new tag.
-# make sure your tags are annotated!
-on:
-  push:
-    tags:
-      - '**'
+name: Deliver All Platforms
 
 # a workflow is built up as jobs, and within these jobs are steps
 jobs:
@@ -36,5 +28,7 @@ jobs:
           fetch-depth: 0  # gets entire git history, needed for automatic changelogs
 
       # once cloned, we just run the GitHub Action
-      - name: Package and release
+      - name: Deliver All Platforms
         uses: BigWigsMods/packager@v2
+        with:
+          args: -d -z
